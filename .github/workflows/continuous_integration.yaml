@@ -17,7 +17,7 @@ jobs:
                 dotnet-version: '8.0'     
               
         -   name: Restore Dependencies
-            run: dotnet restore ./Fiap.Web.SmartWasteManagement.Tests/Fiap.Web.SmartWasteManagement.Tests.csproj
+            run: dotnet restore Fiap.Web.SmartWasteManagement.Tests.csproj
 
 
         -   name: Build solution
