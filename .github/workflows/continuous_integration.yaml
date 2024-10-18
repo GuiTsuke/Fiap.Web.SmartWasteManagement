@@ -16,12 +16,14 @@ jobs:
             with:
                 dotnet-version: '8.0'     
               
-        -   name: Restore dependencies
-            run: dotnet restore Fiap.Web.SmartWasteManagement.sln
+        -   name: Restore Dependencies
+            run: dotnet restore ./Fiap.Web.SmartWasteManagement.Tests/Fiap.Web.SmartWasteManagement.Tests.csproj
+
 
         -   name: Build solution
             run: dotnet build Fiap.Web.SmartWasteManagement.sln --configuration Release --no-restore
 
         -   name: Run Tests
-            run: dotnet test Fiap.Web.SmartWasteManagement.sln --no-restore --verbosity normal --logger "trx;LogFileName=test_results.trx"
+            run: dotnet test ../Fiap.Web.SmartWasteManagement.Tests/Fiap.Web.SmartWasteManagement.Tests.csproj --no-restore --verbosity normal --logger "trx;LogFileName=test_results.trx"
+
 
