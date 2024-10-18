@@ -16,6 +16,12 @@ jobs:
             with:
                 dotnet-version: '8.0'     
               
-        -   name: Test with xUnit
-            run: dotnet test Fiap.Web.SmartWasteManagement.sln
+        -   name: Restore dependencies
+            run: dotnet restore Fiap.Web.SmartWasteManagement.sln
+
+        -   name: Build solution
+            run: dotnet build Fiap.Web.SmartWasteManagement.sln --configuration Release --no-restore
+
+        -   name: Run Tests
+            run: dotnet test Fiap.Web.SmartWasteManagement.sln --no-restore --verbosity normal --logger "trx;LogFileName=test_results.trx"
 
