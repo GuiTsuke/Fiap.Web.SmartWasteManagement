@@ -1,0 +1,41 @@
+name: 03 - Actions!
+on:
+    push:
+        branches: "feature/**"
+jobs:
+    checkout_aspnet_docker:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Git Checkout
+              uses: actions/checkout@v4
+
+            - name: Setup .NET Core SDK
+              uses: actions/setup-dotnet@v4
+              with:
+                dotnet-version: '8.0'
+
+            - name: Restore dependencies
+              run: dotnet restore Fiap.Web.SmartWasteManagement.sln
+
+            - name: Build the project
+              run: dotnet build Fiap.Web.SmartWasteManagement.sln --configuration Release --no-restore
+
+            - name: Run tests
+              run: dotnet test Fiap.Web.SmartWasteManagement.sln --no-restore --verbosity normal
+
+            - name: Clean up
+              run: dotnet clean Fiap.Web.SmartWasteManagement.sln
+
+
+            - name: Build Docker
+              uses: docker/build-push-action@v6
+              with: 
+                push: false
+                
+            - name: Executar Scripts
+              run: |
+                git branch
+                dotnet --version                
+
+
+            
