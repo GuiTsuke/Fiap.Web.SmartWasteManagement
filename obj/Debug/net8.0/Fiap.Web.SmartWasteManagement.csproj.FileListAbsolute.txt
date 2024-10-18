@@ -462,6 +462,7 @@ D:\src\Fiap\2Ano_Fase4\Fiap.Web.SmartWasteManagemente.ApplicationFull\Fiap.Web.S
 D:\src\Fiap\2Ano_Fase4\Fiap.Web.SmartWasteManagemente.ApplicationFull\Fiap.Web.SmartWasteManagement\obj\Debug\net8.0\ref\Fiap.Web.SmartWasteManagement.dll
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\appsettings.Development.json
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\appsettings.json
+C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\appsettings.Production.json
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\Fiap.Web.SmartWasteManagement.staticwebassets.runtime.json
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\Fiap.Web.SmartWasteManagement.exe
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\Fiap.Web.SmartWasteManagement.deps.json
@@ -809,6 +810,7 @@ C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\Microsoft.Visu
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\Mono.TextTemplating.dll
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\MySql.Data.dll
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\MySql.EntityFrameworkCore.dll
+C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\MySqlConnector.dll
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\Newtonsoft.Json.dll
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\NuGet.Common.dll
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\NuGet.Configuration.dll
@@ -819,6 +821,7 @@ C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\NuGet.Packagin
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\NuGet.ProjectModel.dll
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\NuGet.Protocol.dll
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\NuGet.Versioning.dll
+C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\System.CodeDom.dll
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\System.Composition.AttributedModel.dll
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\System.Composition.Convention.dll
@@ -1001,6 +1004,3 @@ C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\obj\Debug\net8.0\refint\Fiap.We
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\obj\Debug\net8.0\Fiap.Web.SmartWasteManagement.pdb
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\obj\Debug\net8.0\Fiap.Web.SmartWasteManagement.genruntimeconfig.cache
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\obj\Debug\net8.0\ref\Fiap.Web.SmartWasteManagement.dll
-C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\appsettings.Production.json
-C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\MySqlConnector.dll
-C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
