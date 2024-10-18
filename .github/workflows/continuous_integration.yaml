@@ -17,5 +17,5 @@ jobs:
                 dotnet-version: '8.0'     
               
         -   name: Test with xUnit
-            run: dotnet test ../Fiap.Web.SmartWasteManagement.Tests/Fiap.Web.SmartWasteManagement.Tests.csproj --verbosity normal --logger "trx;LogFileName=test_results.trx"
+            run: dotnet test Fiap.Web.SmartWasteManagement.Tests/Fiap.Web.SmartWasteManagement.Tests.csproj --verbosity normal --logger "trx;LogFileName=test_results.trx"
 
