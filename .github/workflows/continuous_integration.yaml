@@ -18,3 +18,4 @@ jobs:
               
         -   name: Test with xUnit
             run: dotnet test Fiap.Web.SmartWasteManagement.Tests.sln --no-build --verbosity normal --logger "trx;LogFileName=test_results.trx"
+
