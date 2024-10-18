@@ -3,10 +3,16 @@
   "WorkspaceRootPath": "C:\\src\\WebAPI-FIAP\\Fiap.Web.SmartWasteManagement\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{799BE8F1-C25C-40FF-9393-C62487666565}|..\\Fiap.Web.SmartWasteManagement.Tests\\Fiap.Web.SmartWasteManagement.Tests.csproj|c:\\src\\webapi-fiap\\fiap.web.smartwastemanagement.tests\\caminhaocontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9A3C56CD-8333-4BCE-9038-04EBD900B5A8}|Fiap.Web.SmartWasteManagement.csproj|c:\\src\\webapi-fiap\\fiap.web.smartwastemanagement\\fiap.web.smartwastemanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9A3C56CD-8333-4BCE-9038-04EBD900B5A8}|Fiap.Web.SmartWasteManagement.csproj|solutionrelative:fiap.web.smartwastemanagement.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{799BE8F1-C25C-40FF-9393-C62487666565}|..\\Fiap.Web.SmartWasteManagement.Tests\\Fiap.Web.SmartWasteManagement.Tests.csproj|c:\\src\\webapi-fiap\\fiap.web.smartwastemanagement.tests\\fiap.web.smartwastemanagement.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\src\\WebAPI-FIAP\\Fiap.Web.SmartWasteManagement\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\src\\WebAPI-FIAP\\Fiap.Web.SmartWasteManagement\\obj\\Debug\\net8.0\\Fiap.Web.SmartWasteManagement.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0\\Fiap.Web.SmartWasteManagement.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9A3C56CD-8333-4BCE-9038-04EBD900B5A8}|Fiap.Web.SmartWasteManagement.csproj|c:\\src\\webapi-fiap\\fiap.web.smartwastemanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -52,23 +58,6 @@
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Fiap.Web.SmartWasteManagement.Tests",
-              "DocumentMoniker": "C:\\src\\WebAPI-FIAP\\Fiap.Web.SmartWasteManagement.Tests\\Fiap.Web.SmartWasteManagement.Tests.csproj",
-              "RelativeDocumentMoniker": "..\\Fiap.Web.SmartWasteManagement.Tests\\Fiap.Web.SmartWasteManagement.Tests.csproj",
-              "ToolTip": "C:\\src\\WebAPI-FIAP\\Fiap.Web.SmartWasteManagement.Tests\\Fiap.Web.SmartWasteManagement.Tests.csproj",
-              "RelativeToolTip": "..\\Fiap.Web.SmartWasteManagement.Tests\\Fiap.Web.SmartWasteManagement.Tests.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-18T23:03:41.401Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
@@ -81,33 +70,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CaminhaoControllerTests.cs",
-              "DocumentMoniker": "C:\\src\\WebAPI-FIAP\\Fiap.Web.SmartWasteManagement.Tests\\CaminhaoControllerTests.cs",
-              "RelativeDocumentMoniker": "..\\Fiap.Web.SmartWasteManagement.Tests\\CaminhaoControllerTests.cs",
-              "ToolTip": "C:\\src\\WebAPI-FIAP\\Fiap.Web.SmartWasteManagement.Tests\\CaminhaoControllerTests.cs",
-              "RelativeToolTip": "..\\Fiap.Web.SmartWasteManagement.Tests\\CaminhaoControllerTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAIAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "DocumentMoniker": "C:\\src\\WebAPI-FIAP\\Fiap.Web.SmartWasteManagement\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "ToolTip": "C:\\src\\WebAPI-FIAP\\Fiap.Web.SmartWasteManagement\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T22:21:33.205Z",
+              "WhenOpened": "2024-10-18T23:23:27.376Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "Fiap.Web.SmartWasteManagement.AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\src\\WebAPI-FIAP\\Fiap.Web.SmartWasteManagement\\obj\\Debug\\net8.0\\Fiap.Web.SmartWasteManagement.AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "obj\\Debug\\net8.0\\Fiap.Web.SmartWasteManagement.AssemblyInfo.cs",
+              "ToolTip": "C:\\src\\WebAPI-FIAP\\Fiap.Web.SmartWasteManagement\\obj\\Debug\\net8.0\\Fiap.Web.SmartWasteManagement.AssemblyInfo.cs",
+              "RelativeToolTip": "obj\\Debug\\net8.0\\Fiap.Web.SmartWasteManagement.AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T23:23:03.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Fiap.Web.SmartWasteManagement.csproj",
+              "DocumentMoniker": "C:\\src\\WebAPI-FIAP\\Fiap.Web.SmartWasteManagement\\Fiap.Web.SmartWasteManagement.csproj",
+              "RelativeDocumentMoniker": "Fiap.Web.SmartWasteManagement.csproj",
+              "ToolTip": "C:\\src\\WebAPI-FIAP\\Fiap.Web.SmartWasteManagement\\Fiap.Web.SmartWasteManagement.csproj",
+              "RelativeToolTip": "Fiap.Web.SmartWasteManagement.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-18T23:21:10.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\src\\WebAPI-FIAP\\Fiap.Web.SmartWasteManagement\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
               "ToolTip": "C:\\src\\WebAPI-FIAP\\Fiap.Web.SmartWasteManagement\\Dockerfile",
               "RelativeToolTip": "Dockerfile",
-              "ViewState": "AgIAAAYAAAAAAAAAAIBJwCEAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-10-18T17:50:19.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T17:50:19.776Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "20241018174057_TabelasNoMySQL.cs",
               "DocumentMoniker": "C:\\src\\WebAPI-FIAP\\Fiap.Web.SmartWasteManagement\\Migrations\\20241018174057_TabelasNoMySQL.cs",
               "RelativeDocumentMoniker": "Migrations\\20241018174057_TabelasNoMySQL.cs",
@@ -115,25 +128,23 @@
               "RelativeToolTip": "Migrations\\20241018174057_TabelasNoMySQL.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T17:40:57.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T17:40:57.693Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\src\\WebAPI-FIAP\\Fiap.Web.SmartWasteManagement\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\src\\WebAPI-FIAP\\Fiap.Web.SmartWasteManagement\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAIBJwFUAAABQAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAIBZwFUAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T17:34:16.991Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T17:34:16.991Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "AgendamentoColetaRepository.cs",
               "DocumentMoniker": "C:\\src\\WebAPI-FIAP\\Fiap.Web.SmartWasteManagement\\Data\\Repository\\AgendamentoColetaRepository.cs",
               "RelativeDocumentMoniker": "Data\\Repository\\AgendamentoColetaRepository.cs",
@@ -141,12 +152,11 @@
               "RelativeToolTip": "Data\\Repository\\AgendamentoColetaRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T17:33:10.613Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T17:33:10.613Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "DatabaseContext.cs",
               "DocumentMoniker": "C:\\src\\WebAPI-FIAP\\Fiap.Web.SmartWasteManagement\\Data\\Contexts\\DatabaseContext.cs",
               "RelativeDocumentMoniker": "Data\\Contexts\\DatabaseContext.cs",
@@ -154,12 +164,11 @@
               "RelativeToolTip": "Data\\Contexts\\DatabaseContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T17:33:01.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T17:33:01.56Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\src\\WebAPI-FIAP\\Fiap.Web.SmartWasteManagement\\appsettings.Development.json",
               "RelativeDocumentMoniker": "appsettings.Development.json",
@@ -167,12 +176,11 @@
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-18T17:32:37.795Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T17:32:37.795Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\src\\WebAPI-FIAP\\Fiap.Web.SmartWasteManagement\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -180,12 +188,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-17T00:04:28.697Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-17T00:04:28.697Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "CaminhaoController.cs",
               "DocumentMoniker": "C:\\src\\WebAPI-FIAP\\Fiap.Web.SmartWasteManagement\\Controllers\\CaminhaoController.cs",
               "RelativeDocumentMoniker": "Controllers\\CaminhaoController.cs",
@@ -193,8 +200,7 @@
               "RelativeToolTip": "Controllers\\CaminhaoController.cs",
               "ViewState": "AgIAAHcAAAAAAAAAAAAwwJsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-18T22:20:22.61Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-18T22:20:22.61Z"
             }
           ]
         }

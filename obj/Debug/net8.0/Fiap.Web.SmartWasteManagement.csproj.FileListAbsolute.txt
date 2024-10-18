@@ -464,6 +464,9 @@ C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\appsettings.De
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\appsettings.json
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\appsettings.Production.json
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\Fiap.Web.SmartWasteManagement.staticwebassets.runtime.json
+C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\xunit.runner.visualstudio.testadapter.dll
+C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\xunit.runner.reporters.netcoreapp10.dll
+C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\xunit.runner.utility.netcoreapp10.dll
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\Fiap.Web.SmartWasteManagement.exe
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\Fiap.Web.SmartWasteManagement.deps.json
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\Fiap.Web.SmartWasteManagement.runtimeconfig.json
@@ -767,6 +770,8 @@ C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\refs\System.Xm
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\refs\WindowsBase.dll
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\AutoMapper.dll
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\Castle.Core.dll
+C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\FluentAssertions.dll
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\Google.Protobuf.dll
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\Humanizer.dll
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\K4os.Compression.LZ4.dll
@@ -808,6 +813,7 @@ C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\Microsoft.Visu
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\Moq.dll
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\MySql.Data.dll
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\MySql.EntityFrameworkCore.dll
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\MySqlConnector.dll
@@ -833,6 +839,10 @@ C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\System.Reflect
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\System.Security.Permissions.dll
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\xunit.abstractions.dll
+C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\xunit.assert.dll
+C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\xunit.core.dll
+C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\xunit.execution.dotnet.dll
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\ZstdSharp.dll
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\af\Humanizer.resources.dll
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement\bin\Debug\net8.0\ar\Humanizer.resources.dll
