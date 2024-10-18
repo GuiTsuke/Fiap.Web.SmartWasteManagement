@@ -74,13 +74,13 @@
               "target": "Package",
               "version": "[8.0.6, )"
             },
-            "Oracle.EntityFrameworkCore": {
+            "MySql.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.23.60, )"
+              "version": "[8.0.8, )"
             },
-            "Oracle.ManagedDataAccess.Core": {
+            "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
-              "version": "[23.6.0, )"
+              "version": "[8.0.2, )"
             }
           },
           "imports": [

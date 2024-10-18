@@ -4,7 +4,6 @@ using Fiap.Web.SmartWasteManagement.Data.Contexts;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using Oracle.EntityFrameworkCore.Metadata;
 
 #nullable disable
 
@@ -17,30 +16,26 @@ namespace Fiap.Web.SmartWasteManagement.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.6")
-                .HasAnnotation("Relational:MaxIdentifierLength", 128);
-
-            OracleModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+                .HasAnnotation("ProductVersion", "8.0.10")
+                .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
             modelBuilder.Entity("Fiap.Web.SmartWasteManagement.Models.AgendamentoColetaModel", b =>
                 {
                     b.Property<int>("Codigo")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("NUMBER(10)")
+                        .HasColumnType("int")
                         .HasColumnName("CD_AGENDAMENTO_COLETA");
 
-                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Codigo"));
-
                     b.Property<int>("CodigoRecipiente")
-                        .HasColumnType("NUMBER(10)")
+                        .HasColumnType("int")
                         .HasColumnName("CD_RECIPIENTE");
 
                     b.Property<int>("CodigoRota")
-                        .HasColumnType("NUMBER(10)")
+                        .HasColumnType("int")
                         .HasColumnName("CD_ROTA");
 
                     b.Property<DateTime>("DataAgendamento")
-                        .HasColumnType("TIMESTAMP(7)")
+                        .HasColumnType("datetime(6)")
                         .HasColumnName("DT_AGENDAMENTO");
 
                     b.HasKey("Codigo");
@@ -56,28 +51,26 @@ namespace Fiap.Web.SmartWasteManagement.Migrations
                 {
                     b.Property<int>("Codigo")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("NUMBER(10)")
+                        .HasColumnType("int")
                         .HasColumnName("CD_CAMINHAO");
 
-                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Codigo"));
-
                     b.Property<decimal>("CapacidadeCarga")
-                        .HasColumnType("DECIMAL(18, 2)")
+                        .HasColumnType("decimal(18,2)")
                         .HasColumnName("VL_CAPACIDADE_CARGA");
 
                     b.Property<string>("LocalizacaoAtual")
                         .IsRequired()
-                        .HasColumnType("NVARCHAR2(2000)")
+                        .HasColumnType("longtext")
                         .HasColumnName("DS_LOCALIZACAO_ATUAL");
 
                     b.Property<string>("Placa")
                         .IsRequired()
                         .HasMaxLength(100)
-                        .HasColumnType("NVARCHAR2(100)")
+                        .HasColumnType("varchar(100)")
                         .HasColumnName("DS_PLACA");
 
                     b.Property<int>("Status")
-                        .HasColumnType("NUMBER(10)")
+                        .HasColumnType("int")
                         .HasColumnName("CD_STATUS");
 
                     b.HasKey("Codigo");
@@ -89,33 +82,31 @@ namespace Fiap.Web.SmartWasteManagement.Migrations
                 {
                     b.Property<int>("Codigo")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("NUMBER(10)")
+                        .HasColumnType("int")
                         .HasColumnName("CD_MORADOR");
-
-                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Codigo"));
 
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasMaxLength(100)
-                        .HasColumnType("NVARCHAR2(100)")
+                        .HasColumnType("varchar(100)")
                         .HasColumnName("DS_EMAIL");
 
                     b.Property<string>("Endereco")
                         .IsRequired()
                         .HasMaxLength(200)
-                        .HasColumnType("NVARCHAR2(200)")
+                        .HasColumnType("varchar(200)")
                         .HasColumnName("DS_ENDERECO");
 
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasMaxLength(100)
-                        .HasColumnType("NVARCHAR2(100)")
+                        .HasColumnType("varchar(100)")
                         .HasColumnName("DS_NOME");
 
                     b.Property<string>("Telefone")
                         .IsRequired()
                         .HasMaxLength(20)
-                        .HasColumnType("NVARCHAR2(20)")
+                        .HasColumnType("varchar(20)")
                         .HasColumnName("DS_TELEFONE");
 
                     b.HasKey("Codigo");
@@ -127,31 +118,29 @@ namespace Fiap.Web.SmartWasteManagement.Migrations
                 {
                     b.Property<int>("Codigo")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("NUMBER(10)")
+                        .HasColumnType("int")
                         .HasColumnName("CD_NOTIFICACAO");
 
-                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Codigo"));
-
                     b.Property<int>("CodigoMorador")
-                        .HasColumnType("NUMBER(10)")
+                        .HasColumnType("int")
                         .HasColumnName("CD_MORADOR");
 
                     b.Property<int>("CodigoRecipiente")
-                        .HasColumnType("NUMBER(10)")
+                        .HasColumnType("int")
                         .HasColumnName("CD_RECIPIENTE");
 
                     b.Property<DateTime>("DataEnvio")
-                        .HasColumnType("TIMESTAMP(7)")
+                        .HasColumnType("datetime(6)")
                         .HasColumnName("DT_ENVIO");
 
                     b.Property<int>("Leitura")
                         .HasMaxLength(20)
-                        .HasColumnType("NUMBER(10)")
+                        .HasColumnType("int")
                         .HasColumnName("CD_STATUS_LEITURA");
 
                     b.Property<int>("Tipo")
                         .HasMaxLength(50)
-                        .HasColumnType("NUMBER(10)")
+                        .HasColumnType("int")
                         .HasColumnName("CD_STATUS_NOTIFICACAO");
 
                     b.HasKey("Codigo");
@@ -167,32 +156,30 @@ namespace Fiap.Web.SmartWasteManagement.Migrations
                 {
                     b.Property<int>("Codigo")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("NUMBER(10)")
+                        .HasColumnType("int")
                         .HasColumnName("CD_RECIPIENTE");
 
-                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Codigo"));
-
                     b.Property<decimal>("CapacidadeTotal")
-                        .HasColumnType("DECIMAL(18, 2)")
+                        .HasColumnType("decimal(18,2)")
                         .HasColumnName("VL_CAPACIDADE_TOTAL");
 
                     b.Property<int>("CodigoMorador")
-                        .HasColumnType("NUMBER(10)")
+                        .HasColumnType("int")
                         .HasColumnName("CD_MORADOR");
 
                     b.Property<string>("Endereco")
                         .IsRequired()
                         .HasMaxLength(200)
-                        .HasColumnType("NVARCHAR2(200)")
+                        .HasColumnType("varchar(200)")
                         .HasColumnName("DS_ENDERECO");
 
                     b.Property<decimal>("NivelOcupacaoAtual")
-                        .HasColumnType("DECIMAL(18, 2)")
+                        .HasColumnType("decimal(18,2)")
                         .HasColumnName("VL_NIVEL_OCUPACAO");
 
                     b.Property<int>("TipoResiduo")
                         .HasMaxLength(50)
-                        .HasColumnType("NUMBER(10)")
+                        .HasColumnType("int")
                         .HasColumnName("DS_TIPO_RESIDUOS");
 
                     b.HasKey("Codigo");
@@ -206,30 +193,28 @@ namespace Fiap.Web.SmartWasteManagement.Migrations
                 {
                     b.Property<int>("Codigo")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("NUMBER(10)")
+                        .HasColumnType("int")
                         .HasColumnName("CD_ROTA");
 
-                    OraclePropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Codigo"));
-
                     b.Property<int>("CodigoCaminhao")
-                        .HasColumnType("NUMBER(10)")
+                        .HasColumnType("int")
                         .HasColumnName("CD_CAMINHAO");
 
                     b.Property<DateTime>("DataColeta")
-                        .HasColumnType("TIMESTAMP(7)")
+                        .HasColumnType("datetime(6)")
                         .HasColumnName("DT_COLETA");
 
                     b.Property<DateTime>("HoraFim")
-                        .HasColumnType("TIMESTAMP(7)")
+                        .HasColumnType("datetime(6)")
                         .HasColumnName("DT_HORA_FIM");
 
                     b.Property<DateTime>("HoraInicio")
-                        .HasColumnType("TIMESTAMP(7)")
+                        .HasColumnType("datetime(6)")
                         .HasColumnName("DT_HORA_INICIO");
 
                     b.Property<string>("PontosColeta")
                         .IsRequired()
-                        .HasColumnType("NVARCHAR2(2000)")
+                        .HasColumnType("longtext")
                         .HasColumnName("DS_PONTOS_COLETA");
 
                     b.HasKey("Codigo");

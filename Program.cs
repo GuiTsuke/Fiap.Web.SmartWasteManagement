@@ -11,7 +11,7 @@ var builder = WebApplication.CreateBuilder(args);
 #region Banco de Dados
 var connectionString = builder.Configuration.GetConnectionString("DatabaseConnection");
 builder.Services.AddDbContext<DatabaseContext>(
-    opt => opt.UseOracle(connectionString)
+    opt => opt.UseMySQL(connectionString!)
 );
 #endregion
 
@@ -70,6 +70,9 @@ builder.Services.AddSingleton(mapper);
 
 #endregion
 
+builder.Logging.AddConsole();
+builder.Logging.AddDebug();
+
 
 
 // Add services to the container.
@@ -77,6 +80,15 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddAutoMapper(typeof(Program));
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<DatabaseContext>();
+
+    // Ou use Migrate para aplicar migrações pendentes
+    dbContext.Database.Migrate();
+}
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
