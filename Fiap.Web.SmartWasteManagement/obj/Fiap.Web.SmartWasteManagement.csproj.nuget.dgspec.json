@@ -54,6 +54,10 @@
               "target": "Package",
               "version": "[6.12.1, )"
             },
+            "Microsoft.CodeCoverage": {
+              "target": "Package",
+              "version": "[17.11.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[8.0.10, )"
@@ -75,6 +79,10 @@
               "version": "[8.0.10, )"
             },
             "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.11.1, )"
+            },
+            "Microsoft.TestPlatform.TestHost": {
               "target": "Package",
               "version": "[17.11.1, )"
             },

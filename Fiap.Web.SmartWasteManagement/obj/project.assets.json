@@ -8297,11 +8297,13 @@
     "net8.0": [
       "AutoMapper >= 13.0.1",
       "FluentAssertions >= 6.12.1",
+      "Microsoft.CodeCoverage >= 17.11.1",
       "Microsoft.EntityFrameworkCore >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Relational >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.10",
       "Microsoft.NET.Test.Sdk >= 17.11.1",
+      "Microsoft.TestPlatform.TestHost >= 17.11.1",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.21.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.6",
       "Moq >= 4.20.72",
@@ -8364,6 +8366,10 @@
             "target": "Package",
             "version": "[6.12.1, )"
           },
+          "Microsoft.CodeCoverage": {
+            "target": "Package",
+            "version": "[17.11.1, )"
+          },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
             "version": "[8.0.10, )"
@@ -8385,6 +8391,10 @@
             "version": "[8.0.10, )"
           },
           "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "[17.11.1, )"
+          },
+          "Microsoft.TestPlatform.TestHost": {
             "target": "Package",
             "version": "[17.11.1, )"
           },
