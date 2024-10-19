@@ -29,6 +29,6 @@ namespace Fiap.Web.SmartWasteManagement.Services
         public IEnumerable<CaminhaoModel> ListarCaminhoes(int pagina, int tamanho) => _repository.GetAll(pagina, tamanho);
         public IEnumerable<CaminhaoModel> ListarCaminhoesReferencia(int pagina, int tamanho) => _repository.GetAllReference(pagina, tamanho);
 
-        public CaminhaoModel ObterCaminhaoPorId(int id) => _repository.GetById(id);
+        public CaminhaoModel? ObterCaminhaoPorId(int id) => _repository.GetById(id);
     }
 }

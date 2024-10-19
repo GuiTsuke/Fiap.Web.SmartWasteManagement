@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Fiap.Web.SmartWasteManagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb3e6b29bb23a6ba8800cee54dc7842ddecc33d6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7641b7b5811426820a05b7644b49a70f400f4db")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fiap.Web.SmartWasteManagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fiap.Web.SmartWasteManagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

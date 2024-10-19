@@ -74,7 +74,7 @@ namespace Fiap.Web.SmartWasteManagement.Tests.Controllers
         {
             // Arrange
             int caminhaoId = 1;
-            _caminhaoServiceMock.Setup(s => s.ObterCaminhaoPorId(caminhaoId)).Returns((CaminhaoModel) new CaminhaoModel());
+            _caminhaoServiceMock.Setup(s => s.ObterCaminhaoPorId(caminhaoId)).Returns(value: null);
 
             // Act
             var result = _controller.Details(caminhaoId);
