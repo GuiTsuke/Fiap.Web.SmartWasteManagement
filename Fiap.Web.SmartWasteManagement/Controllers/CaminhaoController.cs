@@ -13,17 +13,11 @@ using Fiap.Web.SmartWasteManagement.ViewModels;
 
 namespace Fiap.Web.SmartWasteManagement.Controllers
 {
-    public class CaminhaoController : Controller
+    public class CaminhaoController(IMapper mapper, ICaminhaoService caminhaoService) : Controller
     {
-        private readonly IMapper _mapper;
+        private readonly IMapper _mapper = mapper;
 
-        private readonly ICaminhaoService _caminhaoService;
-
-        public CaminhaoController(IMapper mapper, ICaminhaoService caminhaoService)
-        {
-            _mapper = mapper;
-            _caminhaoService = caminhaoService;
-        }
+        private readonly ICaminhaoService _caminhaoService = caminhaoService;
 
         #region Métodos de Ação
 
