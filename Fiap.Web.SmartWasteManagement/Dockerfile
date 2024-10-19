@@ -11,7 +11,7 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["Fiap.Web.SmartWasteManagement.csproj", "."]
+COPY ["Fiap.Web.SmartWasteManagement.csproj", "./"]
 RUN dotnet restore "./Fiap.Web.SmartWasteManagement.csproj"
 COPY . .
 WORKDIR "/src/."
