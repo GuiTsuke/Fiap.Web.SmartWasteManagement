@@ -48,7 +48,7 @@ namespace Fiap.Web.SmartWasteManagement.Controllers
         public IActionResult Details(int id)
         {
 
-            CaminhaoModel caminhaoModel = _caminhaoService.ObterCaminhaoPorId(id);
+            CaminhaoModel caminhaoModel = _caminhaoService.ObterCaminhaoPorId(id)!;
             if (caminhaoModel == null)
             {
                 return NotFound();
