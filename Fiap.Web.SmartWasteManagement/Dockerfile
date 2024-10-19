@@ -1,5 +1,3 @@
-#See https://aka.ms/customizecontainer to learn how to customize your debug container and how Visual Studio uses this Dockerfile to build your images for faster debugging.
-
 # 1. Base image for runtime environment
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
 USER app
@@ -11,15 +9,20 @@ EXPOSE 8081
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
+
+# Copiar todos os arquivos do diretório atual para o contêiner
 COPY . .
-RUN dotnet restore "./Fiap.Web.SmartWasteManagement.csproj"
-WORKDIR "/src/."
-RUN dotnet build "./Fiap.Web.SmartWasteManagement.csproj" -c $BUILD_CONFIGURATION -o /app/build
+
+# Restauração de dependências
+RUN dotnet restore "./Fiap.Web.SmartWasteManagement.sln"
+
+# Construção da aplicação
+RUN dotnet build "./Fiap.Web.SmartWasteManagement.sln" -c $BUILD_CONFIGURATION -o /app/build
 
 # 3. Publish the app into a publish folder
 FROM build AS publish
 ARG BUILD_CONFIGURATION=Release
-RUN dotnet publish "./Fiap.Web.SmartWasteManagement.csproj" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
+RUN dotnet publish "./Fiap.Web.SmartWasteManagement.sln" -c $BUILD_CONFIGURATION -o /app/publish /p:UseAppHost=false
 
 # 4. Final image to run the application
 FROM base AS final
