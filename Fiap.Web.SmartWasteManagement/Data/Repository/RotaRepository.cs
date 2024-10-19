@@ -17,7 +17,7 @@ namespace Fiap.Web.SmartWasteManagement.Data.Repository
 
         RotaModel IRotaRepository.GetById(int id)
         {
-            return _context.Rotas.Find(id);
+            return _context.Rotas.Find(id)!;
         }
 
         public void Add(RotaModel rota)

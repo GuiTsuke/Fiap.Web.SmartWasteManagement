@@ -322,3 +322,4 @@ C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement.Tests\obj\Debug\net8.0\refint\F
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement.Tests\obj\Debug\net8.0\Fiap.Web.SmartWasteManagement.Tests.pdb
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement.Tests\obj\Debug\net8.0\Fiap.Web.SmartWasteManagement.Tests.genruntimeconfig.cache
 C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement.Tests\obj\Debug\net8.0\ref\Fiap.Web.SmartWasteManagement.Tests.dll
+C:\src\WebAPI-FIAP\Fiap.Web.SmartWasteManagement.Tests\bin\Debug\net8.0\.msCoverageSourceRootsMapping_Fiap.Web.SmartWasteManagement.Tests

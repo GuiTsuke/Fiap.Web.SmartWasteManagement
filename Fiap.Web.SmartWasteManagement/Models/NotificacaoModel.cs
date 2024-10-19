@@ -9,9 +9,9 @@ namespace Fiap.Web.SmartWasteManagement.Models
         public NotificacaoStatus Tipo { get; set; }
         public LeituraStatus Leitura { get; set; }
         public int CodigoMorador { get; set; }
-        public MoradorModel Morador { get; set; }
+        public MoradorModel Morador { get; set; } = new MoradorModel();
         public int CodigoRecipiente { get; set; }
-        public RecipienteModel Recipiente { get; set; }
+        public RecipienteModel Recipiente { get; set; } = new RecipienteModel();
 
     }
 }

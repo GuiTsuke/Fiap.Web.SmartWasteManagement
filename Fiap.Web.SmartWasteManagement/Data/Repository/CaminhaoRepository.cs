@@ -40,7 +40,7 @@ namespace Fiap.Web.SmartWasteManagement.Data.Repository
             return _context.Caminhoes.Where(c => c.Codigo > lastReference).OrderBy(c => c.Codigo).Take(size).AsNoTracking().ToList();
         }
 
-        public CaminhaoModel GetById(int id) => _context.Caminhoes.Find(id);
+        public CaminhaoModel GetById(int id) => _context.Caminhoes.Find(id)!;
 
         public void Update(CaminhaoModel caminhao)
         {

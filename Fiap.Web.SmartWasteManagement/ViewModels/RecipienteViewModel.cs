@@ -12,7 +12,7 @@ namespace Fiap.Web.SmartWasteManagement.ViewModels
 
         [Required]
         [Display(Name = "Endereço do Recipiente")]
-        public string Endereco { get; set; }
+        public string Endereco { get; set; } = string.Empty;
 
         [Required]
         [Display(Name = "Tipo de Resíduo")]

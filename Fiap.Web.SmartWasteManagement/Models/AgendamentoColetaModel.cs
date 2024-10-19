@@ -6,7 +6,7 @@
         public int CodigoRecipiente { get; set; }
         public int CodigoRota { get; set; }
         public DateTime DataAgendamento { get; set; }
-        public RecipienteModel Recipiente { get; set; }
-        public RotaModel Rota { get; set; }
+        public RecipienteModel Recipiente { get; set; } = new RecipienteModel();
+        public RotaModel Rota { get; set; } = new RotaModel();
     }
 }

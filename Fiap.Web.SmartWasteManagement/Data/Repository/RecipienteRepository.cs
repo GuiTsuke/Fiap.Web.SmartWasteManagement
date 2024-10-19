@@ -31,7 +31,7 @@ namespace Fiap.Web.SmartWasteManagement.Data.Repository
 
         RecipienteModel IRecipienteRepository.GetById(int id)
         {
-            return _context.Recipientes.Find(id);
+            return _context.Recipientes.Find(id)!;
         }
 
         void IRecipienteRepository.Update(RecipienteModel recipiente)

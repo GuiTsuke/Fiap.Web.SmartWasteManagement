@@ -31,7 +31,7 @@ namespace Fiap.Web.SmartWasteManagement.Data.Repository
 
         public AgendamentoColetaModel GetById(int id)
         {
-            return _context.Agendamentos.Find(id);
+            return _context.Agendamentos.Find(id)!;
         }
 
         public void Update(AgendamentoColetaModel agendamento)

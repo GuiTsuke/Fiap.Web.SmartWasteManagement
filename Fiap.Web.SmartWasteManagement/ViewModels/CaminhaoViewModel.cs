@@ -11,7 +11,7 @@ namespace Fiap.Web.SmartWasteManagement.ViewModels
         [Required]
         [StringLength(10)]
         [Display(Name = "Placa do Caminhão")]
-        public string Placa { get; set; }
+        public string Placa { get; set; } = string.Empty;
 
         [Required]
         [Range(0.000, double.MaxValue, ErrorMessage = "Capacidade de carga deve ser um valor positivo.")]
@@ -23,6 +23,6 @@ namespace Fiap.Web.SmartWasteManagement.ViewModels
         public CaminhaoStatus Status { get; set; }
 
         [Display(Name = "Localização Atual")]
-        public string LocalizacaoAtual { get; set; }
+        public string LocalizacaoAtual { get; set; } = string.Empty;
     }
 }

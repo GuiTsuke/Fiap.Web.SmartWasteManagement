@@ -36,7 +36,7 @@ namespace Fiap.Web.SmartWasteManagement.Data.Repository
 
         MoradorModel IMoradorRepository.GetById(int id)
         {
-            return _context.Moradores.Find(id);
+            return _context.Moradores.Find(id)!;
         }
     }
 }

@@ -31,7 +31,7 @@ namespace Fiap.Web.SmartWasteManagement.Data.Repository
 
         public NotificacaoModel GetById(int id)
         {
-            return _context.Notificacoes.Find(id);
+            return _context.Notificacoes.Find(id)!;
         }
 
         public void Update(NotificacaoModel notificacao)

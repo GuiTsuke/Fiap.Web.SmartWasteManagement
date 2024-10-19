@@ -21,7 +21,7 @@ namespace Fiap.Web.SmartWasteManagement.ViewModels
 
         [Required]
         [Display(Name = "Pontos de Coleta")]
-        public string PontosColeta { get; set; }
+        public string PontosColeta { get; set; } = string.Empty;
 
         [Required]
         [Display(Name = "Código do Caminhão")]

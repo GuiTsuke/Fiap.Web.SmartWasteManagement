@@ -47,7 +47,7 @@ namespace Fiap.Web.SmartWasteManagement.Tests.Controllers
 
             // Assert
             result.Should().NotBeNull();
-            result.ViewData.Model.Should().BeEquivalentTo(caminhaoViewModels);
+            result!.ViewData.Model.Should().BeEquivalentTo(caminhaoViewModels);
         }
 
         [Fact]
@@ -66,7 +66,7 @@ namespace Fiap.Web.SmartWasteManagement.Tests.Controllers
             // Assert
             _caminhaoServiceMock.Verify(s => s.CriarCaminhao(caminhaoModel), Times.Once);
             result.Should().NotBeNull();
-            result.ActionName.Should().Be("Index");
+            result!.ActionName.Should().Be("Index");
         }
 
         [Fact]
@@ -74,7 +74,7 @@ namespace Fiap.Web.SmartWasteManagement.Tests.Controllers
         {
             // Arrange
             int caminhaoId = 1;
-            _caminhaoServiceMock.Setup(s => s.ObterCaminhaoPorId(caminhaoId)).Returns((CaminhaoModel)null);
+            _caminhaoServiceMock.Setup(s => s.ObterCaminhaoPorId(caminhaoId)).Returns((CaminhaoModel) new CaminhaoModel());
 
             // Act
             var result = _controller.Details(caminhaoId);
@@ -99,7 +99,7 @@ namespace Fiap.Web.SmartWasteManagement.Tests.Controllers
             // Assert
             _caminhaoServiceMock.Verify(s => s.AtualizarCaminhao(caminhaoModel), Times.Once);
             result.Should().NotBeNull();
-            result.ActionName.Should().Be("Index");
+            result!.ActionName.Should().Be("Index");
         }
 
         [Fact]
@@ -115,7 +115,7 @@ namespace Fiap.Web.SmartWasteManagement.Tests.Controllers
             // Assert
             _caminhaoServiceMock.Verify(s => s.DeletarCaminhao(caminhaoId), Times.Once);
             result.Should().NotBeNull();
-            result.ActionName.Should().Be("Index");
+            result!.ActionName.Should().Be("Index");
         }
     }
 }
